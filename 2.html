@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reverse a String</title>
+</head>
+<body>
+	<h1 id="answer"></h1>
+	<script>
+		/* Change the variable string below to give change the input */
+		var string = 'abu-dhabi';
+
+		function reverse(str) {
+			var arr_string = str.split('');
+			var solution = '';
+			for (i = arr_string.length - 1; i >= 0; i--) {
+				solution += arr_string[i];
+			}
+			return solution;
+		}
+
+		document.getElementById("answer").innerText = 'Answer = ' + reverse(string);
+		console.log(reverse(string))
+	</script>
+</body>
+</html>
