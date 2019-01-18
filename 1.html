@@ -6,13 +6,13 @@
 <body>
 	<h1 id="answer"></h1>
 	<script>
-		/* Change the variable array below to give change the input */
-		var array = [1,2,3,4,5,6,7,8,9,10];
+		var input = prompt("Please enter certain amount of number (1st number,2nd number,..,nth number)", "1,2,3,4,5,6,7,8,9,10");
+		var array = input.split(",");
 
 		function findSum (arr) {
-			var sum = 0
+			var sum = 0;
 			for (i = 0; i < arr.length; i++) {
-				sum += arr[i];
+				sum += parseInt(arr[i]);
 			}
 			return sum;
 		}
