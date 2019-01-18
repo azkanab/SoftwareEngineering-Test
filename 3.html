@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<style>
+		body {
+			background-color: #E2E2E2;
+			display: block;
+			margin: 0 0;
+			margin-top: 30px;
+			font-family: 'Roboto', sans-serif;
+		}
+		.box1 {
+			width: 360px;
+			height: auto;
+			background-color: white;
+			margin-bottom: 10px;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    padding-top: 20px;
+		    padding-left: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    box-shadow: 0px 2px 8px 0px rgba(122,122,122,0.75);
+		}
+		.box2 {
+			width: 360px;
+			height: auto;
+			background-color: white;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    padding-top: 20px;
+		    padding-left: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    box-shadow: 0px 2px 8px 0px rgba(122,122,122,0.75);
+		}
+		.title {
+			display: flex;
+		}
+		.sub-title {
+			flex: 3;
+			padding-top: 5px;
+		}
+		.image {
+			flex: 1;
+			display: flex;
+			justify-content: flex-end;
+		}
+		.type {
+			font-size: 15px;
+			color: #8A8A8A;
+		}
+		.city {
+			font-size: 25px;
+		}
+		.description {
+			font-size: 15px;
+			color: #4B4B4B;
+		}
+		.action {
+			display: flex;
+			font-weight: 500;
+			color: #4463cd;
+			margin-top: 30px;
+			font-size: 15px;
+		}
+		.action1 {
+			flex: 1;
+		}
+		.action2 {
+			flex: 3;
+		}
+		@media screen and (max-width: 450px) {
+			.box1 {
+				width: auto;
+				height: auto;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			.box2 {
+				width: auto;
+				height: auto;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="boxes">
+		<div class="box1">
+			<div class="title">
+				<div class="sub-title">
+					<p class="type" style="line-height:0.5;">Travel</p>
+					<p class="city" style="line-height:0;">New York City</p>
+				</div>
+				<div class="image">
+					<img src="nyc.jpg" height="80" width="80">
+				</div>
+			</div>
+			<div class="description">
+				<p>Day reappeared. The tempest still raged with undiminished fury; but the wind now returned to the south-east. It was a favourable change, and the Tankadere again.</p>
+			</div>
+			<div class="action">
+				<div class="action1">
+					<span style="cursor: pointer;">ACTION 1</span>
+				</div>
+				<div class="action2">
+					<span style="cursor: pointer;">ACTION 2</span>
+				</div>
+			</div>
+		</div>
+		<div class="box2">
+			<div class="title">
+				<div class="sub-title">
+					<p class="type" style="line-height:0.5;">Recreation</p>
+					<p class="city" style="line-height:0;">Fun at the Beach</p>
+				</div>
+				<div class="image">
+					<img src="beach.jpg" height="80" width="80">
+				</div>
+			</div>
+			<div class="description">
+				<p>There were some sign of a calm at noon, and these became more distinct as the sun.</p>
+			</div>
+			<div class="action">
+				<div class="action1">
+					<span style="cursor: pointer;">ACTION 1</span>
+				</div>
+				<div class="action2">
+					<span style="cursor: pointer;">ACTION 2</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
